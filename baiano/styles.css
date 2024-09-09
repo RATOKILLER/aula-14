@@ -17,7 +17,7 @@ body {
 header {
     background-color: #0044cc;
     color: white;
-    padding: 20px 20px 20px 10px; /* Ajustado padding esquerdo */
+    padding: 20px 20px 20px 10px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -129,8 +129,8 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 0 auto; /* Centraliza o formulário */
-    max-width: 600px; /* Limita a largura máxima */
+    margin: 0 auto; 
+    max-width: 600px;
 }
 
 .contato-form label, 
@@ -169,7 +169,7 @@ footer {
     background-color: #0033aa;
 }
 
-/* Responsividade dos formulários */
+
 @media (max-width: 600px) {
     header .pesquisa-form input,
     header .pesquisa-form button {
