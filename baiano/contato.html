@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Materiais de Construção - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Guina Materiais de Construção</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <form action="#" method="GET" class="pesquisa-form">
+            <input type="text" name="pesquisa" placeholder="Pesquisar...">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <main>
+        <section>
+            <h2>Entre em Contato Conosco</h2>
+            <form action="#" method="POST" class="contato-form">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <form action="#" method="POST" class="orcamento-form">
+            <h3>Solicite um orçamento</h3>
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="detalhes" placeholder="Detalhes do orçamento" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>&copy; 2024 Loja de Materiais de Construção</p>
+    </footer>
+</body>
+</html>
